@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste de Formulário HTML5</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; line-height: 1.5; }
+        form { max-width: 400px; background: #f9f9f9; padding: 20px; border-radius: 8px; border: 1px solid #ddd; }
+        label { display: block; margin-top: 15px; font-weight: bold; }
+        input { width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px; }
+        button { margin-top: 20px; padding: 10px 20px; background: #006699; color: white; border: none; border-radius: 4px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h2>Pré-inscrição</h2>
+    <form action="#" method="post">
+        <label for="email">E-mail(Obrigatório):</label>
+        <input type="email" id="email" required placeholder="nome@estudante.edu.br">
+
+        <label for="idade">Idade (Obrigatório):</label>
+        <input type="number" id="idade" min="18" max="200" value="18" required>
+
+        <label for="nascimento">Data de Nascimento (Obrigatório):</label>
+        <input type="date" id="nascimento" required>
+
+        Cor de Pele:
+        <label for="branco">Branco</label>
+        <input type="radio" id="branco" name="cor_pele" value="BRANCO">
+        <label for="preto">Preto</label>
+        <input type="radio" id="preto" name="cor_pele" value="PRETO">
+        <label for="outro">Outro</label>
+        <input type="radio" id="outro" name="cor_pele" value="OUTRO">
+        
+        <label for="op1">Casa</label>
+        <input type="checkbox" id="op1" name="op1" value="casa">
+        <label for="op2">Carro</label>
+        <input type="checkbox" id="op2" name="op2" value="carro">
+        <label for="op3">Emprego</label>
+        <input type="checkbox" id="op3" name="op3" value="Emprego">
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,18 @@
+.cabecalho {
+    background-color: rgb(1, 134, 196);
+    border: 3px solid black;
+    margin: 10px auto;
+    padding: 20px 50px;
+    width: 500px;
+    box-shadow: 5px 5px 20px black; 
+    border-radius: 30px;
+    text-align: center;
+    size: 16px;
+}
+aside{
+    background-color: antiquewhite;
+}
+.artigos{
+    background-color: beige;
+    text-align: center;
+}
